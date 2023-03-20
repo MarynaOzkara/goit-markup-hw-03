@@ -1,0 +1,207 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-white);
+    color: var(--main-text-color);
+
+} 
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+:root{
+    --main-text-color: #434455;
+    --main-title-color: #2E2F42;
+    --primary-brend: #4D5AE5 ;
+    --accent-color: #404BBF;
+    --primary-white: #ffffff;
+    --light-grey: #F4F4FD;
+}
+/*-----------HEADER--------*/
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brend);
+}
+.logo-accent{
+    color: var(--main-title-color)
+}
+.header-menu-item{
+}
+.header-menu-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+.header-menu-link:hover:hover,
+.header-menu-link:focus:focus{
+    color: var(--accent-color);
+}
+.contact-list-item{   
+}
+.contact{
+    font-style: normal;  
+}
+.contact-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+.contact-link:hover, .contact-link:focus{
+    color: var(--accent-color);
+}
+/* -----------HERO--------*/
+.hero{
+  background-color: var(--main-title-color);
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--primary-white); 
+}
+.hero-btn{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-white);
+    background: var(--primary-brend);
+}
+.hero-btn:hover, .hero-btn:focus{
+    background: var(--accent-color);
+    cursor: pointer;
+}
+/* -----------BENEFITS--------*/
+.benefits {
+}
+.benefits-title{   
+}
+.benefits-item {
+}
+.benefits-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+.benefits-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+/* -----------WORK--------*/
+.work-title{
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--main-title-color);
+}
+/* -----------TEAM--------*/
+.team {
+    background-color: var(--light-grey);
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color);
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+    background-color: var(--primary-white);
+}
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+.team-descriptions {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+/* -----------PORTFOLIO-FILTER--------*/
+.portfolio {
+}
+.portfolio-filter {
+}
+.filter-item {
+}
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-brend);
+    background: var(--light-grey);
+}
+.filter-btn:hover, 
+.filter-btn:focus{
+    color: var(--primary-white);
+    background: var(--accent-color);
+    cursor: pointer;
+}
+/* -----------PORTFOLIO--------*/
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+.portfolio-descriptions {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+/* -----------FOOTER--------*/
+.footer {
+    background-color: var(--main-title-color);
+}
+.footer-logo-accent {
+    color: var(--light-grey);
+}
+.foooter-descriptions {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-grey);
+}
