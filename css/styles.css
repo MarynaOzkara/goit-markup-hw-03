@@ -41,6 +41,9 @@ button{
     padding-right: 15px;
     margin: 0 auto;
 }
+.flex{
+    display: flex;
+}
 .hidden{
     position: absolute;
     width: 1px;
@@ -59,6 +62,14 @@ button{
     padding-bottom: 24px;
     border-bottom: 1px solid var(--header-border);
 }
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -67,12 +78,19 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brend);
+    margin-right: 76px;
 }
 .logo-accent{
     color: var(--main-title-color)
 }
-.header-menu-item{
+.header-menu{
+    display: flex;
+    gap: 40px;
 }
+.header-menu-item{
+    
+}
+
 .header-menu-link{
     font-weight: 500;
     font-size: 16px;
@@ -89,6 +107,10 @@ button{
 .contact{
     font-style: normal;  
 }
+.contact-list{
+    display: flex;
+    gap: 40px;
+}
 .contact-link{
     font-weight: 400;
     font-size: 16px;
@@ -102,19 +124,25 @@ button{
 /* -----------HERO--------*/
 .hero{
   background-color: var(--main-title-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
+}
+.hero-wrapper{
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+    
 }
 .hero-title{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--primary-white);
     margin-bottom: 48px; 
 }
 .hero-btn{
+    min-width: 169px;
+    height: 56px;
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -126,7 +154,7 @@ button{
     background: var(--primary-brend);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    padding: 16px 32px;
+    margin: 0 auto;
 }
 .hero-btn:hover, .hero-btn:focus{
     background: var(--accent-color);
@@ -138,10 +166,13 @@ button{
 .benefits-title{   
 }
 .benefits-list{
+    display: flex;
+    gap: 24px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 .benefits-item {
+    max-width: 264px;
 }
 .benefits-title {
     font-weight: 500;
@@ -160,6 +191,10 @@ button{
 /* -----------WORK--------*/
 .work{
     padding-bottom: 120px;
+}
+.work-list{
+    display: flex;
+    gap: 24px;
 }
 .work-title{
 font-size: 36px;
@@ -186,6 +221,8 @@ margin-bottom: 72px;
     margin-bottom: 72px;
 }
 .team-list {
+    display: flex;
+    gap: 24px;
 }
 .team-item {
     width: 264px;
@@ -278,8 +315,10 @@ margin-bottom: 72px;
     color: var(--light-grey);
 }
 .foooter-descriptions {
+    width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--light-grey);
+    margin-top: 16px;
 }
