@@ -162,17 +162,15 @@ button{
 }
 /* -----------BENEFITS--------*/
 .benefits {
-}
-.benefits-title{   
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .benefits-list{
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .benefits-item {
-    max-width: 264px;
+    min-width: calc((100% - 72px) / 4);
 }
 .benefits-title {
     font-weight: 500;
@@ -196,14 +194,17 @@ button{
     display: flex;
     gap: 24px;
 }
+.work-item{
+    min-width: calc((100% - 48px) / 3);
+}
 .work-title{
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--main-title-color);
-margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color);
+    margin-bottom: 72px;
 }
 /* -----------TEAM--------*/
 .team {
@@ -225,7 +226,7 @@ margin-bottom: 72px;
     gap: 24px;
 }
 .team-item {
-    width: calc(100% - 72px) / 4;
+    min-width: calc((100% - 72px) / 4);
     background-color: var(--primary-white);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -288,10 +289,11 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     gap: 48px 24px;
 }
+
 .portfolio-item {
     width: 360px;
     padding-bottom: 32px;
-    border: 1px solid var(--header-border);
+    border-bottom: 1px solid var(--header-border);
 }
 .portfolio-title {
     font-weight: 500;
