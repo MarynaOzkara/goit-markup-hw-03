@@ -41,9 +41,6 @@ button{
     padding-right: 15px;
     margin: 0 auto;
 }
-.flex{
-    display: flex;
-}
 .hidden{
     position: absolute;
     width: 1px;
@@ -78,7 +75,6 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brend);
-    margin-right: 76px;
 }
 .logo-accent{
     color: var(--main-title-color)
@@ -86,6 +82,8 @@ button{
 .header-menu{
     display: flex;
     gap: 40px;
+    margin-left: 76px;
+
 }
 .header-menu-item{
     
@@ -123,13 +121,10 @@ button{
 }
 /* -----------HERO--------*/
 .hero{
-  background-color: var(--main-title-color);
-}
-.hero-wrapper{
+    background-color: var(--main-title-color);
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    
 }
 .hero-title{
     font-weight: 700;
@@ -148,12 +143,12 @@ button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--primary-white);
     background: var(--primary-brend);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: 0;
     margin: 0 auto;
 }
 .hero-btn:hover, .hero-btn:focus{
@@ -280,7 +275,7 @@ button{
 .filter-btn:focus{
     color: var(--primary-white);
     background: var(--accent-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid var(--accent-color);
     cursor: pointer;
 }
 /* -----------PORTFOLIO--------*/
@@ -289,11 +284,14 @@ button{
     flex-wrap: wrap;
     gap: 48px 24px;
 }
-
 .portfolio-item {
     width: 360px;
-    padding-bottom: 32px;
+}
+.portfolio-wrap{
+    padding: 32px 16px;
     border-bottom: 1px solid var(--header-border);
+    border-right: 1px solid var(--header-border);
+    border-left: 1px solid var(--header-border);
 }
 .portfolio-title {
     font-weight: 500;
@@ -301,16 +299,13 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
-    margin-top: 32px;
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 .portfolio-descriptions {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-    margin-left: 16px;
 }
 
 /* -----------FOOTER--------*/
