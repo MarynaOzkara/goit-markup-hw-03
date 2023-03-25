@@ -255,6 +255,9 @@ margin-bottom: 72px;
 }
 .portfolio-filter {
     margin-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 .filter-item {
 }
@@ -281,6 +284,9 @@ margin-bottom: 72px;
 }
 /* -----------PORTFOLIO--------*/
 .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 .portfolio-item {
     width: 360px;
